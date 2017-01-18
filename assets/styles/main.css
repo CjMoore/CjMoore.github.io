@@ -163,9 +163,9 @@ Buttons
 }
 
 .btn:hover {
-	background: #ffbe93;
+	background: #0C4C5E;
 	border: 1px solid #ffbe93;
-	color:  #0C4C5E
+	color: #ffbe93;
 }
 
 /*
