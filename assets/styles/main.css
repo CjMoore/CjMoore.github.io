@@ -1,0 +1,305 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+==========
+Grid
+==========
+*/
+
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+			box-sizing: border-box;
+
+}
+
+.container {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+/*
+========
+clearfix
+========
+*/
+
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+.group {
+	clear: both;
+	*zoom: 1;
+}
+
+/*
+=======
+Header
+=======
+*/
+
+.name {
+	font-size: 52px;
+	font-family: "Arima Madurai", sans-serif;
+	float: left;
+	padding: 40px 20px;
+	color: #ffbe93;
+	line-height: 44px;
+	font-weight: 100;
+	border-left: 1px solid #ffbe93;
+	text-transform: uppercase;
+}
+
+header {
+	border-bottom: 1px solid #ffbe93;
+
+}
+
+/*
+========
+Navigation
+========
+*/
+
+.nav {
+	float: right;
+	margin-top: 90px;
+	margin-right: 100px;
+}
+
+.nav-button {
+	padding: 0 10px 0 10px;
+	border: 1px solid #ffbe93;
+	font-weight: 100;
+}
+
+/*
+=======
+Links
+=======
+*/
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #0C4C5E;
+	background: #ffbe93;
+}
+
+/*
+=======
+Buttons
+=======
+*/
+
+.btn {
+	display: inline-block;
+	border: 1px solid white;
+	border-radius: 5px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: white
+
+}
+
+.btn:hover {
+	background: #ffbe93;
+	border: 1px solid #ffbe93;
+	color:  #0C4C5E
+}
+
+/*
+======
+About
+======
+*/
+
+.about {
+	padding: 22px 80px 66px 80px;
+	margin: 0px 100px 0px 100px;
+	border-left: 1px solid #ffbe93;
+}
+
+.about h2{
+	text-align: left;
+}
+
+.copy {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: 5px 5px 0px 5px;
+	line-height: 44px;
+	padding: 22px 30px 66px 30px;
+}
+
+.copy p {
+	text-align: left;
+	font-weight: 100;
+}
+
+/*
+=======
+Skills
+=======
+*/
+
+.skills {
+	padding: 22px 80px 66px 80px;
+	margin: 0px 100px 0px 100px;
+	width: 85%;
+	text-align: right;
+	border-top: 1px solid #ffbe93;
+	border-right: 1px solid #ffbe93;
+}
+
+/*
+=========
+Contact
+=========
+*/
+
+.contact{
+	height: 500px;
+}
+
+#contact_me {
+	padding-top: 50px;
+	padding-bottom: 30px;
+	text-align: center;
+	line-height: 50px
+}
+
+.contact a {
+	color: #ffbe93;
+	font-size: 30px;
+	margin-left: 40%;
+	margin-right: 50%
+
+}
+
+.contact a:hover{
+	color: white;
+	background: #0C4C5E;
+}
+
+/*
+========
+Projects
+========
+*/
+
+.gif {
+	height: 500px;
+}
+
+.gif img{
+	margin-left: 35%;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+.gif p{
+	text-align: center;
+}
+
+/*
+=======
+Footer
+=======
+*/
+
+.email {
+	clear: both;
+	float: right;
+	margin-top: 70px
+}
+
+footer {
+	border-top: 1px solid #ffbe93;
+	height: 160px;
+}
+
+
+
+/*
+========
+Custom Styles
+========
+*/
+
+body {
+	font: 100 16px/22px "Dosis", "Helvetica Neue", Helvetica, sans-serif;
+	background: #0C4C5E;
+}
+
+h2 {
+	font-size: 36px;
+	weight: 100;
+	color: #ffbe93;
+}
+
+p {
+	font-size: 30px;
+	color: white;
+	font-weight: 100;
+}
