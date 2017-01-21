@@ -53,7 +53,7 @@ Grid
 ==========
 */
 
-*,
+/**,
 *:before,
 *:after {
 	-webkit-box-sizing: border-box;
@@ -65,7 +65,7 @@ Grid
 .container {
 	padding-left: 30px;
 	padding-right: 30px;
-}
+}*/
 
 /*
 ========
@@ -103,6 +103,7 @@ Header
 	font-weight: 100;
 	border-left: 1px solid #ffbe93;
 	text-transform: uppercase;
+	margin-left: 30px;
 }
 
 header {
@@ -128,6 +129,8 @@ Navigation
 	font-weight: 100;
 }
 
+
+
 /*
 =======
 Links
@@ -140,8 +143,9 @@ a {
 }
 
 a:hover {
-	color: #0C4C5E;
-	background: #ffbe93;
+	color: white;
+	background: rgba(255, 190, 147, .5);
+	text-decoration: none;
 }
 
 /*
@@ -168,6 +172,17 @@ Buttons
 	color: #ffbe93;
 }
 
+.btn-resume{
+	border: 1px solid white;
+	border-radius: 5px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: white
+}
+
+
 /*
 ======
 About
@@ -189,7 +204,7 @@ About
 	padding-bottom: 20px;
 	margin: 5px 5px 0px 5px;
 	line-height: 44px;
-	padding: 22px 30px 66px 30px;
+	/*padding: 22px 30px 22px 30px;*/
 }
 
 .copy p {
@@ -229,19 +244,36 @@ Contact
 	line-height: 50px
 }
 
-.contact a {
+.mooc {
 	color: #ffbe93;
 	font-size: 30px;
 	margin-left: 40%;
 	margin-right: 50%
-
+	margin-top: 80px;
 }
 
-.contact a:hover{
+.mooc:hover{
 	color: white;
 	background: #0C4C5E;
+	text-decoration: none;
 }
 
+.contact-links{
+	margin-right: 30%;
+	margin-top: 60px;
+}
+
+.contact-links li{
+	display: inline-block;
+}
+
+#resume{
+	margin: 0 10px 0 10px;
+}
+
+.resume-pdf{
+	margin: 0 40px 0 40px;
+}
 /*
 ========
 Projects
@@ -264,11 +296,38 @@ Projects
 
 /*
 =======
+Blog
+=======
+*/
+
+.blog {
+	padding: 50px 100px 50px 100px;
+	margin: 0 50px 0 50px;
+	border-right: 1px solid #ffbe93;
+}
+
+.blog p{
+	padding-top: 20px;
+	font-size: 16px;
+}
+
+.blog h2{
+	font-size: 26px;
+}
+
+.blog h3{
+	font-size: 16px;
+	color: #ffbe93;
+	padding-top: 10px;
+}
+
+/*
+=======
 Footer
 =======
 */
 
-.email {
+.email a{
 	clear: both;
 	float: right;
 	margin-top: 70px
@@ -279,8 +338,6 @@ footer {
 	height: 160px;
 }
 
-
-
 /*
 ========
 Custom Styles
@@ -290,6 +347,7 @@ Custom Styles
 body {
 	font: 100 16px/22px "Dosis", "Helvetica Neue", Helvetica, sans-serif;
 	background: #0C4C5E;
+	letter-spacing: .5px;
 }
 
 h2 {
@@ -302,4 +360,18 @@ p {
 	font-size: 30px;
 	color: white;
 	font-weight: 100;
+	padding: 20px 0 20px 0;
+}
+
+li{
+	color: white;
+	font-size: 30px;
+	/*padding-right: 30px;*/
+	float: right;
+	margin-right: 50px;
+}
+
+ul {
+	list-style: circle;
+	padding: 40px 0 40px 0;
 }
