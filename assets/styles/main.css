@@ -311,6 +311,28 @@ Blog
 	border-right: 1px solid #ffbe93;
 }
 
+.blog3 {
+	padding: 50px 100px 50px 100px;
+	margin: 0 50px 0 50px;
+	border-right: 1px solid #ffbe93;
+	border-top: 1px solid #ffbe93
+}
+
+.blog3 p{
+	padding-top: 20px;
+	font-size: 16px;
+}
+
+.blog3 h2{
+	font-size: 26px;
+}
+
+.blog3 h3{
+	font-size: 16px;
+	color: #ffbe93;
+	padding-top: 10px;
+}
+
 .blog p{
 	padding-top: 20px;
 	font-size: 16px;
