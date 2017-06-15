@@ -228,9 +228,9 @@ Skills
 	height: 1000px;
 }
 
-/*.skills h2 {
-	padding-right: 40px;
-}*/
+.skills h2 {
+	margin: 20px 0 20px 0;
+}
 
 .skills h3 {
 	font-family: "Arima Madurai", sans-serif;
