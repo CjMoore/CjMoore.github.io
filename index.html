@@ -5,6 +5,8 @@
     <title>Charlotte Moore</title>
     <!-- <link href='css/bootstrap.css' rel='stylesheet'> -->
     <link rel="stylesheet" href="assets/styles/main.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src= "https://cdnjs.cloudflare.com/ajax/libs/jQuery-Knob/1.2.13/jquery.knob.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Dosis:100" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Arima+Madurai:100,300,500" rel="stylesheet" />
   </head>
@@ -28,8 +30,113 @@
     </section><!--
       skills
  --><section class="skills">
-        <h2>Skills</h2>
-        <ul class="skill-list">
+      <h2>Skills</h2>
+      <div class="languages">
+        <h3>Languages</h3>
+        <div class="ruby">
+          <h5>Ruby</h5>
+          <input type="text" value="75" class="dial" data-width="75" data-fgColor="#FCD0A1" data-height="75" data-skin="tron" data-thickness=".1">
+        </div>
+        <div class="javascript">
+          <h5>JavaScript</h5>
+          <input type="text" value="60" class="dial" data-width='75' data-fgColor="#FCD0A1" data-height="75" data-skin="tron" data-thickness=".1">
+        </div>
+        <div class="html">
+          <h5>HTML</h5>
+          <input type="text" value="60" class="dial" data-width='75' data-fgColor="#FCD0A1" data-height="75" data-skin="tron" data-thickness=".1">
+        </div>
+        <div class="CSS">
+          <h5>CSS</h5>
+          <input type="text" value="50" class="dial" data-width='75' data-fgColor="#FCD0A1" data-height="75" data-skin="tron" data-thickness=".1">
+        </div>
+        <div class="SQL">
+          <h5>SQL</h5>
+          <input type="text" value="50" class="dial" data-width='75' data-fgColor="#FCD0A1" data-height="75" data-skin="tron" data-thickness=".1">
+        </div>
+      </div>
+
+      <div class="frameworks">
+        <h3>Frameworks</h3>
+        <div class="rails">
+          <h5>Rails</h5>
+          <input type="text" value="75" class="dial" data-width="75" data-fgColor="#FCD0A1" data-height="75" data-skin="tron" data-thickness=".1">
+        </div>
+        <div class="activerecord">
+          <h5>Active Record</h5>
+          <input type="text" value="75" class="dial" data-width="75" data-fgColor="#FCD0A1" data-height="75" data-skin="tron" data-thickness=".1">
+        </div>
+        <div class="jquery">
+          <h5>jQuery</h5>
+          <input type="text" value="75" class="dial" data-width="75" data-fgColor="#FCD0A1" data-height="75" data-skin="tron" data-thickness=".1">
+        </div>
+        <div class="materialize">
+          <h5>Materialize</h5>
+          <input type="text" value="60" class="dial" data-width="75" data-fgColor="#FCD0A1" data-height="75" data-skin="tron" data-thickness=".1">
+        </div>
+        <div class="node">
+          <h5>Node.js</h5>
+          <input type="text" value="60" class="dial" data-width="75" data-fgColor="#FCD0A1" data-height="75" data-skin="tron" data-thickness=".1">
+        </div>
+        <div class="express">
+          <h5>Express.js</h5>
+          <input type="text" value="60" class="dial" data-width="75" data-fgColor="#FCD0A1" data-height="75" data-skin="tron" data-thickness=".1">
+        </div>
+      </div>
+      <div class="tdd">
+        <h3>TDD</h3>
+        <div class="rspec">
+          <h5>RSpec</h5>
+          <input type="text" value="75" class="dial" data-width="75" data-fgColor="#FCD0A1" data-height="75" data-skin="tron" data-thickness=".1">
+        </div>
+        <div class="capybara">
+          <h5>Capybara</h5>
+          <input type="text" value="75" class="dial" data-width="75" data-fgColor="#FCD0A1" data-height="75" data-skin="tron" data-thickness=".1">
+        </div>
+        <div class="mocha">
+          <h5>Mocha</h5>
+          <input type="text" value="60" class="dial" data-width="75" data-fgColor="#FCD0A1" data-height="75" data-skin="tron" data-thickness=".1">
+        </div>
+        <div class="chai">
+          <h5>Chai</h5>
+          <input type="text" value="60" class="dial" data-width="75" data-fgColor="#FCD0A1" data-height="75" data-skin="tron" data-thickness=".1">
+        </div>
+        <div class="minitest">
+          <h5>Minitest</h5>
+          <input type="text" value="50" class="dial" data-width="75" data-fgColor="#FCD0A1" data-height="75" data-skin="tron" data-thickness=".1">
+        </div>
+        <div class="selenium">
+          <h5>Selenium</h5>
+          <input type="text" value="50" class="dial" data-width="75" data-fgColor="#FCD0A1" data-height="75" data-skin="tron" data-thickness=".1">
+        </div>
+      </div>
+
+      <div class="tools">
+        <h3>Tools/Other</h3>
+        <div class="git">
+          <h5>Git</h5>
+          <input type="text" value="80" class="dial" data-width="75" data-fgColor="#FCD0A1" data-height="75" data-skin="tron" data-thickness=".1">
+        </div>
+        <div class="agile">
+          <h5>Agile</h5>
+          <input type="text" value="80" class="dial" data-width="75" data-fgColor="#FCD0A1" data-height="75" data-skin="tron" data-thickness=".1">
+        </div>
+        <div class="postgres">
+          <h5>PostgreSQL</h5>
+          <input type="text" value="75" class="dial" data-width="75" data-fgColor="#FCD0A1" data-height="75" data-skin="tron" data-thickness=".1">
+        </div>
+        <div class="heroku">
+          <h5>Heroku</h5>
+          <input type="text" value="75" class="dial" data-width="75" data-fgColor="#FCD0A1" data-height="75" data-skin="tron" data-thickness=".1">
+        </div>
+      </div>
+      <script>
+          $(function() {
+              $(".dial").knob({
+                'readOnly':true
+              });
+          });
+      </script>
+        <!-- <ul class="skill-list">
           <li>Ruby</li>
           <li>Rails</li>
           <li>JavaScript</li>
@@ -40,6 +147,15 @@
           <li>SQL</li>
           <li>HTML/CSS</li>
         </ul>
+        <input type="text" value="75" class="dial" data-width="100">
+
+        <script>
+            $(function() {
+                $(".dial").knob({
+                  'readOnly':true
+                });
+            });
+        </script> -->
     </section>
     <footer>
       <section class="container email">
