@@ -354,6 +354,13 @@ Projects
 	margin: 30px 0 30px 0;
 }
 
+.find-projects {
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	margin: 30px 0 30px 0;
+}
+
 .gif {
 	height: 500px;
 }
@@ -424,6 +431,14 @@ Blog
 Footer
 =======
 */
+.link-icons {
+	float: left;
+	margin: 0 0 0 100px;
+}
+
+.link-icons ul {
+	margin-top: 0px;
+}
 
 .email a{
 	clear: both;
